@@ -146,7 +146,7 @@ namespace PRoConEvents
                         {
                             this.checkTime.AddDays(1);
                         }
-                        this.toConsole
+                        this.toConsole(1, "Scheduling next check at " + checkTime.ToString("F") + ".");
                         this.checkTimeString = strValue;
                     }
                 }
